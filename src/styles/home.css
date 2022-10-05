@@ -1,0 +1,45 @@
+.form {
+  background-color: #DF7C81;
+  height: 140vh;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.texto-colorido {
+  padding-top: 5rem;
+  padding-left: 8rem;
+  align-content: start;
+  color: cyan;
+  font-size: 1rem;
+}
+
+.frase {
+  color: white;
+}
+
+.home {
+  padding-left: 4rem;
+  align-content: start;
+  height: 10vh;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  color: white;
+  font-size: 6rem;
+}
+
+.imagem {
+  height: 800px;
+  width: 500px;
+  position: relative;
+  float: right;
+  padding-right: 5rem;
+}
+
+.download {
+  height: 150px;
+  width: 300px;
+  padding: 2rem;
+}

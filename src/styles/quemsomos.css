@@ -1,0 +1,63 @@
+.monsters {
+  display: flex;
+  /* height: 90vh; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  /* font-size: 3rem; */
+  color: rgb(20, 187, 48)
+}
+
+.header {
+  padding: 1.5rem;
+  font-size: 2.0rem;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  background-color: #333;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.title {
+  color: #DF7C81;
+  padding-top: 5rem;
+  padding-left: 8rem;
+  align-content: start;
+  font-size: 7rem;
+}
+
+.caixa-2 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  width: 400px;
+  height: 200px;
+  margin-left: 8rem;
+  border: 1px;
+  border-radius: 1rem;
+  color: white;
+  background-color: #DF7C81;
+}
+
+.caixa-1 {
+  padding-top: 0.5rem;
+  align-content: start;
+  margin-right: 8rem;
+  background-color: #F8B042;
+}
+
+.texto {
+  padding: 2rem;
+}
+
+.imagem-troca {
+  height: 400px;
+  width: 800px;
+  position: relative;
+  float: right;
+}
