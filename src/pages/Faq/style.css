@@ -1,0 +1,21 @@
+.books-article {
+  background-image: linear-gradient(160deg, #333 20%, #333 20%, #555 80%);
+  color: var(--teal);
+  height: 500px;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-bullet {
+  width: 12px;
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 786px) {
+  /* .. */
+}

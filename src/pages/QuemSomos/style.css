@@ -1,0 +1,40 @@
+article {
+  background-color: white;
+}
+
+.books-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-bullet {
+  width: 12px;
+  margin-right: 4px;
+}
+
+.caixa-2 {
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px;
+  border-radius: 1rem;
+  color: white;
+  background-color: #DF7C81;
+}
+
+.caixa-1 {
+  padding-top: 0.5rem;
+  align-content: start;
+  background-color: #F8B042;
+}
+
+.title1 {
+  font-size: 2rem;
+  color: #DF7C81;
+}
+
+@media screen and (max-width: 786px) {}

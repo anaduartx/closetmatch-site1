@@ -1,0 +1,49 @@
+.contact-article {
+  background-image: linear-gradient(160deg, #333 20%, #333 20%, #555 80%);
+  color: var(--teal);
+  height: 500px;
+}
+
+.contact-container {
+  height: 260px;
+}
+
+.contact-body {
+  font-family: var(--grotesque);
+  font-size: 25px;
+  font-weight: 300;
+  color: var(--lightGray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  text-align: center;
+  width: 300px;
+}
+
+.cb-1 {
+  font-weight: 600;
+  font-style: bold;
+}
+
+.footer-container {
+  background-color: var(--darkGray);
+  border-radius: 15px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 786px) {
+
+  .contact-body {
+    font-size: 18px;
+    font-weight: 600;
+  }
+}
